@@ -125,13 +125,35 @@ carousel-item active{
 
 /* NOSOTROS */
 .bannerNosotros{
-    display: flex;
-    padding-left:170px;
-    padding-right:100px ;
-    width: 900px;
-    height: 300px;  
-    position: relative;
-}
+        width: 980px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-inner{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        animation: slide 5s infinite; 
+    }
+    
+    .carousel-item active img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    
+    }
+    
+    carousel-item active{  
+         transform: translateX(0%); 
+         transform: translateX(0%); 
+     transform: translateX(-100%); 
+          transform: translateX(-100%); 
+         transform: translateX(-200%); 
+         transform: translateX(-200%); 
+          }
 
 .textoNosotros{
     text-align: center;
@@ -145,9 +167,8 @@ carousel-item active{
 .diseñoCajaNosotros{
     display: flex;
     justify-content: space-around;
-    margin: 20px;
-    margin-top:10px;
-    margin-top:15px;
+    margin-top: 15px;
+    margin-bottom:100px;
     height: 300px; 
 }
 
@@ -452,7 +473,7 @@ footer {
     width: 100%;
     justify-content: center;
     gap: 100px;
-    padding: 20px 0;
+    padding: 10px 0;
     background: #0097a9;
 }
 
