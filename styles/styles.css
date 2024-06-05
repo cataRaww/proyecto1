@@ -187,17 +187,21 @@ a{
     margin-top: 20px;
 }
 
-.imgPrincipal{
-    width: 550px;
-    height: 512px;
-}
+
 
 .textoPrincipal{
     font-size: 13px;
     text-align: left;
-    
+
+}
+.grilla {
+    display: grid;
 }
 
+.imgBajada{
+    width: 275px;
+    height: 256px;   
+}
 /* SERVICIOS */
 .bannerNosotros{
     justify-content:center ;
