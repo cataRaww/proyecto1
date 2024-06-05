@@ -14,32 +14,10 @@ a{
     align-content: center;
 }
 
-.headerIndex {
-    display: flex;
-    width:90%;  
-}
-.headerIndex ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    width:100%;
-    font-size: 14px;
-}
 
-
-.estiloHeader{
-    text-decoration: none;
-    background-color:#F2F5F7;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    padding-top: 10px;
-    
-}
-.imgLogo{
-    width:60px;
-    height:65px;
+.Logo{
+    width:20px;
+    height:25px;
    
 }
 
