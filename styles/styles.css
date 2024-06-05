@@ -16,9 +16,12 @@ a{
 
 
 .Logo{
-    width:20px;
-    height:25px;
-   
+    width:40px;
+    height:45px; 
+}
+
+.collapse navbar-collapse{
+    justify-content: center;
 }
 
 
