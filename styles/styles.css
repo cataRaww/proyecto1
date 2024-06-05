@@ -187,79 +187,15 @@ a{
     margin-top: 20px;
 }
 
-.contenedorGaleria{
-    display:flex ;
+.imgPrincipal{
+    width: 550px;
+    height: 512px;
+}
+
+.textoPrincipal{
+    font-size: 13px;
+    text-align: left;
     
-}
-.imgGaleria{
-    display:flex;
-    margin-top: 25px;
-    height: 400px;
-    width: 340px;
-    border:solid 10px;
-    border-color:#989ca1 ;
-    border-radius: 8px;
-    margin-left: 40px;
-}
-
-.textoGaleria{
-line-height: 30px;
-font-size: 13px;
-margin-left: 20px;
-margin-right: 20px;
-margin-top: 30px;
-}
-
-/* inicio selector galeria */
-.contenedorSelectorAño {
-    margin-bottom: 20px;
-    display: flex;
-    padding-left: 410px;
-}
-
-#selectorAño {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none; 
-    padding: 10px 1px 10px 15px;
-    font-size: 10px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    background-image: url(../multimedia/cursor.png);
-    background-repeat: no-repeat;
-    background-position: right 10px top 50%;
-    background-size: 12px 12px;
-    width: 120px;
-}
-
-#selectorAño::-ms-expand {
-    display: none; 
-}
-
-.contenedorVideo {
-    display: flex;
-    gap: 20px;
-  justify-content: center;
-  padding-bottom: 130px;
-}
-
-.video-box {
-    width: 500px;
-    text-align: center;
-}
-
-.video-box video {
-    width: 100%;
-    height: auto;
-}
-
-.textoVideo {
-    background-color:#d5e7f7;
-    border-radius: 20px;
-    margin-top: 10px;
-    font-size: 15px;
 }
 
 /* SERVICIOS */
