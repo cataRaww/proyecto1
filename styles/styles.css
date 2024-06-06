@@ -122,6 +122,10 @@ a{
 
 .grilla {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+
 }
 .textoPrincipal{
     font-size: 13px;
@@ -387,4 +391,16 @@ footer p{
         line-height: 30px; 
     }
    
+}
+@media (max-width:800px) {
+
+
+    .grilla {
+        grid-template-columns:1fr;
+        grid-template-areas:
+            "encabezado"
+            "banner"
+            "main"
+            "footer";
+    }
 }
