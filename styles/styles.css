@@ -78,6 +78,7 @@ carousel-item active{
     border-radius: 15px;
 }
 
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -115,6 +116,7 @@ carousel-item active{
 .button:hover {
     background-color: #0056b3;
 }
+
 
 /* NOSOTROS */
 .bannerNosotros{
@@ -284,98 +286,39 @@ contenedorSelectorServicio {
 }
 
 /* CONTACTO */
-.separadorFooter{
-    padding-bottom: 140px;
+.formulario{
+margin-top: 15px;
+margin-left: 15px;
 }
 
-.tituloContacto{
-    margin-top: 30px;
-    padding-left: 20px;
-    font-size: 25px;
-    color: #000000;
+.textiInforequerida{
+font-size: 14px;
+padding-top: 5px;
+
 }
 
-.bajadaContacto{
-    margin-top: 20px;
-    padding-left: 20px;
-    font-size: 15px;
-}
+.form-control{
+    width: 500px;}
 
-.containerFormulario {
-    padding-left: 20px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.containerFormulario input {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 3px dotted #989ca1;
-    border-radius: 4px;
-    font-size: 14px;
-    width: 500px;
-    box-sizing: border-box;
-}
-
-.containerMensaje{
-    
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;  
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 3px dotted #989ca1;
-    border-radius: 4px;
-    font-size: 14px;
-    width: 500px;
-    
-}
-
-/* Caja mensaje */
-.containerFormulario2 {
-    padding-left: 20px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.containerFormulario2 input {
-    padding: 10px;
-    border: 3px dotted #989ca1;
-    border-radius: 4px;
-    font-size: 16px;
-    width: 500px;
-    height: 200px;
-    box-sizing: border-box;
-}
-
-.containerBoton {
-    margin-top: 15px;
-    padding-left: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
-
-.botonEnviar {
-    width: 70px;
-    height: 40px;
-    background-color: #1aae9f;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 10px;
-    text-align: center;
-    padding: 0;
-}
-
-.botonEnviar:hover {
-    background-color: #ffffff;
+.btn btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
 }
 
 /* AYUDA */
+
 .tituloAyuda{
     margin-top: 30px;
     padding-left: 20px;
@@ -491,4 +434,18 @@ footer {
 }
 footer p{
     color: white;
+}
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 30px; /* Centra el texto verticalmente */
+    }
 }
