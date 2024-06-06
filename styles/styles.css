@@ -24,39 +24,6 @@ a{
     align-content: center !important;
 }
 
-
-/* aca empieza css slider*/
-carouselExampleAutoplaying{
-    width: 980px;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.carousel-inner{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    animation: slide 5s infinite; 
-}
-
-.carousel-item active img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;    
-}
-
-carousel-item active{  
-     transform: translateX(0%); 
-     transform: translateX(0%); 
- transform: translateX(-100%); 
-      transform: translateX(-100%); 
-     transform: translateX(-200%); 
-     transform: translateX(-200%); 
-      }
-
 /* inicio contenido*/
 .texto{
     text-align: center;
@@ -65,13 +32,6 @@ carousel-item active{
     margin-bottom: 10px;
     margin-right: 70px;
     margin-left: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:#d5e7f7;
-    border-radius: 15px;
-}
-
-.texto {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:#d5e7f7;
@@ -117,39 +77,7 @@ carousel-item active{
     background-color: #0056b3;
 }
 
-
-/* NOSOTROS */
-.bannerNosotros{
-        width: 980px;
-        height: 300px;
-        overflow: hidden;
-        position: relative;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    .carousel-inner{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        animation: slide 5s infinite; 
-    }
-    
-    .carousel-item active img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;    
-    }
-    
-    carousel-item active{  
-         transform: translateX(0%); 
-         transform: translateX(0%); 
-     transform: translateX(-100%); 
-          transform: translateX(-100%); 
-         transform: translateX(-200%); 
-         transform: translateX(-200%); 
-          }
-
+/* NOSOTROS*/
 .textoNosotros{
     text-align: center;
     font-size: 15px;
@@ -187,15 +115,15 @@ carousel-item active{
 }
 
 
-
+.grilla {
+    display: grid;
+}
 .textoPrincipal{
     font-size: 13px;
     text-align: left;
     
 }
-.grilla {
-    display: grid;
-}
+
 
 .imgBajada{
     width: 285px;
@@ -237,9 +165,9 @@ contenedorSelectorServicio {
     background-color: #fff;
     background-image: url(../multimedia/cursor.png);
     background-repeat: no-repeat;
-    background-position: right 10px top 50%;
+    background-position: right 5px top 50%;
     background-size: 12px 12px;
-    width: 120px;
+    width: 140px;
 }
 
 #selectorServicio::-ms-expand {
@@ -446,6 +374,7 @@ footer p{
         width: 60px;
         height: 30px;
         font-size: 10px;
-        line-height: 30px; /* Centra el texto verticalmente */
+        line-height: 30px; 
     }
+   
 }
