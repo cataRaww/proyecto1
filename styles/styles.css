@@ -21,7 +21,8 @@ a{
 }
 .navbar-nav{
     display: flex;
-    align-content: center !important;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 /* inicio contenido*/
