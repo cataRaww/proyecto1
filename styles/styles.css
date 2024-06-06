@@ -20,6 +20,7 @@ a{
     height:45px; 
 }
 .navbar-nav{
+    display: flex;
     align-content: center !important;
 }
 
