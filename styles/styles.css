@@ -205,6 +205,12 @@ carousel-item active{
     margin-bottom: 20px;
 }
 
+.bajadaTextoGaleria{
+    margin-top: 20px;
+    background-color:#d5e7f7;
+    border-radius: 12px;
+    
+}
 /* SERVICIOS */
 .bannerNosotros{
     justify-content:center ;
