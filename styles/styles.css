@@ -180,6 +180,11 @@ contenedorSelectorServicio {
 }
 
 /* contenido servicios*/
+.bannerNosotros img{
+    width: 100%;
+    height: auto;
+
+}
 .container {
     margin-top: 30px;
     justify-content: center;
