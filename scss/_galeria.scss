@@ -14,21 +14,37 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 10px;
-    .textoPrincipal{
-        font-size: 13px;
-        text-align: left;
+    .imgBajada{
+        width: 285px;
+        height: 265px; }
+        }
+
+.encabezado{
+    font-size: 20px;
+    color:#ad6def;
+    text-align: center;
+    margin-top: 20px; 
+    .imgPrincipal{
+        width: 100%;
+    }  
+}
+
+.bajadaTextoGaleria{
+    margin-top: 20px;
+    background-color:#d5e7f7;
+    border-radius: 12px;   
+}
+
+.row{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    .col-sm{
+        margin-top: 50px;
+        margin-bottom: 20px;
         .imgBajada{
             width: 285px;
-            height: 265px; 
-            .col-sm{
-                margin-top: 50px;
-                margin-bottom: 20px;
-                .bajadaTextoGaleria{
-                    margin-top: 20px;
-                    background-color:#d5e7f7;
-                    border-radius: 12px;
-                }
-            }
+            height: 265px;   
         }
     }
 }
