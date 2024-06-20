@@ -1,7 +1,7 @@
 /* NOSOTROS*/
 .textoNosotros{
     text-align: center;
-    font-size: 15px;
+    font-size: map-get($tamaños-texto, bajada-texto );
     margin-top: 15px;
     margin-bottom: 10px;
     margin-right: 70px;
