@@ -1,3 +1,10 @@
+.imgCard {
+  width: 285px;
+  height: 265px;
+  border-radius: 10px;
+  border: solid #ad6def;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -207,6 +214,13 @@ body .navbar-nav a {
 }
 
 /* GALERIA*/
+.imgCard {
+  width: 285px;
+  height: 265px;
+  border-radius: 10px;
+  border: solid #ad6def;
+}
+
 .encabezado {
   font-size: 20px;
   color: #ad6def;
@@ -225,7 +239,7 @@ body .navbar-nav a {
   grid-template-rows: 1fr;
   gap: 10px;
 }
-.grilla .imgBajada {
+.grilla .imgBajada, .grilla .row .col-sm .imgBajada, .row .col-sm .grilla .imgBajada {
   width: 285px;
   height: 265px;
 }
@@ -253,11 +267,6 @@ body .navbar-nav a {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.row .col-sm .imgBajada {
-  width: 285px;
-  height: 265px;
-}
-
 /* SERVICIOS*/
 .bannerServicios img {
   width: 100%;

@@ -1,4 +1,5 @@
 /* GALERIA*/
+@import "_extend";
 .encabezado{
     font-size: map-get($tamaños-texto, Titulos );
     color:#ad6def;
@@ -43,8 +44,7 @@
         margin-top: 50px;
         margin-bottom: 20px;
         .imgBajada{
-            width: 285px;
-            height: 265px;   
+            @extend .imgBajada;
         }
     }
 }
