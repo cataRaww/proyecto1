@@ -1,4 +1,13 @@
-.imgCard {
+.cardimg, .row {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.cardimg .col-sm, .row .col-sm {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.cardimg .col-sm .imgBajada, .row .col-sm .imgBajada {
   width: 285px;
   height: 265px;
   border-radius: 10px;
@@ -214,7 +223,16 @@ body .navbar-nav a {
 }
 
 /* GALERIA*/
-.imgCard {
+.cardimg, .row {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.cardimg .col-sm, .row .col-sm {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.cardimg .col-sm .imgBajada, .row .col-sm .imgBajada {
   width: 285px;
   height: 265px;
   border-radius: 10px;
@@ -239,7 +257,7 @@ body .navbar-nav a {
   grid-template-rows: 1fr;
   gap: 10px;
 }
-.grilla .imgBajada, .grilla .row .col-sm .imgBajada, .row .col-sm .grilla .imgBajada {
+.grilla .imgBajada {
   width: 285px;
   height: 265px;
 }
@@ -258,15 +276,7 @@ body .navbar-nav a {
   border-radius: 12px;
 }
 
-.row {
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-}
-.row .col-sm {
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
+
 /* SERVICIOS*/
 .bannerServicios img {
   width: 100%;
