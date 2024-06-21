@@ -18,6 +18,7 @@
 
     .grilla {
         grid-template-columns:1fr;
+        grid-template-rows: 3fr;
         grid-template-areas:
             "encabezado"
             "banner"
