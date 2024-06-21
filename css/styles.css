@@ -249,6 +249,7 @@ body .navbar-nav a {
 
 .imgPrincipal {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .grilla {
@@ -466,12 +467,12 @@ footer .icon {
   padding-top: 10px;
   filter: brightness(2);
 }
-footer .icon .textoFooter {
+footer .textoFooter {
   text-decoration: none;
   text-align: center;
   font-size: 8px;
 }
-footer .icon .textoFooter footer p {
+footer p {
   color: white;
 }
 

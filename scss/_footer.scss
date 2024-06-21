@@ -1,5 +1,6 @@
 /* inicio footer */
-footer{
+
+footer {
     position: fixed;
     bottom: 0px;
     margin-top: 30px;
@@ -10,21 +11,21 @@ footer{
     gap: 100px;
     padding: 10px 0;
     background: #0097a9;
-    .icon{
+    .icon {
         margin-left: 10px;
         margin-right: 10px;
         width: 30px;
         height: auto;
         padding-top: 10px;
         filter: brightness(2);
-        .textoFooter{
-            text-decoration: none;
-            text-align: center;
-            font-size: 8px;
-            footer p{
-                color: white;
-            }
-        }
-    } 
-}
+    }
+    .textoFooter {
+        text-decoration: none;
+        text-align: center;
+        font-size: 8px;
+    }
 
+    p {
+        color: white;
+    }
+}
